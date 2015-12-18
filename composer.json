@@ -1,0 +1,30 @@
+{
+    "name": "webwork/customersupport",
+    "description": "Simple customer support tool for Laravel",
+    "keywords": ["laravel", "support", "customer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khachik Tadevosyan",
+            "email": "tadevosyan.khachik@gmail.com",
+            "homepage": "https://github.com/khachik1990",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/config": "~5.0",
+        "illuminate/support": "~5.0",
+        "illuminate/database": "~5.0",
+        "nesbot/carbon": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+	"autoload": {
+        "psr-0": {
+            "Webwork\\Customersupport\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
