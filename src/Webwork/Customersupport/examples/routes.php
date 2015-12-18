@@ -11,17 +11,6 @@
   |
  */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('home', 'TicketsController@index');
-
-Route::controllers([
-    'auth' => 'Auth\AuthController',
-    'password' => 'Auth\PasswordController',
-]);
-
 Route::group(['prefix' => 'tickets', 'before' => 'auth'], function () {
 
     Route::get('create', ['as' => 'tickets.create', 'uses' => 'TicketsController@create']);
