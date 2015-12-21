@@ -39,7 +39,7 @@ Migrate your database:
 ## Examples
 * [Controller](https://github.com/khachik1990/laravel-customer-support/tree/master/src/Webwork/Customersupport/examples/TicketsController.php)
 * [Routes](https://github.com/khachik1990/laravel-customer-support/tree/master/src/Webwork/Customersupport/examples/routes.php)
-* [Views](https://github.com/khachik1990/laravel-customer-support/tree/master/src/Webwork/Customersupport/views)
+* [Views](https://github.com/khachik1990/laravel-customer-support/tree/master/src/Webwork/Customersupport/examples/views)
 
 __Note:__ These examples use the [laravelcollective/html](http://laravelcollective.com/docs/5.0/html) package that is no longer included in Laravel 5 out of the box. Make sure you require this dependency in your `composer.json` file if you intend to use the example files.
 
